@@ -10,7 +10,7 @@ Create a jupyter notebook implement the *A Search algorithm.
 - Implement the *A Search Algorithm in a Python project where the notebook show a simulation of the agent's path.
 ### Image to Webp Script:
 
-Create a virtual python envirement, after this install the dependecies of the project in the 'requirements.txt' file.
+Create a virtual python enviroment, after this install the dependecies of the project in the 'requirements.txt' file.
 
 Next, run the next command to open jupyter lab:
 
