@@ -32,6 +32,10 @@
 
 FROM jupyter/base-notebook:python-3.10
 
+USER root
+RUN apt update && \
+    apt install -y libgl1 libglib2.0-0
+
 # Copy the requirements.txt file
 COPY requirements.txt /tmp/
 
