@@ -30,7 +30,7 @@
 # # CMD ["jupyter", "lab", "--ip", "0.0.0.0", "--allow-root", "--no-browser"]
 # CMD ["venv/bin/jupyter", "lab", "--ip", "0.0.0.0", "--allow-root", "--no-browser"]
 
-FROM jupyter/datascience-notebook:python-3.10
+FROM jupyter/base-notebook:python-3.10
 
 # Copy the requirements.txt file
 COPY requirements.txt /tmp/
